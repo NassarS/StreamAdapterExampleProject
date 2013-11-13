@@ -1,0 +1,17 @@
+evaluationDependsOn(':namo_lib')
+apply plugin: 'android'
+
+dependencies {
+  compile 'com.android.support:appcompat-v7:+'
+  compile project(':namo_lib')
+}
+
+android {
+  compileSdkVersion 19
+  buildToolsVersion "19.0.0"
+
+  defaultConfig {
+    minSdkVersion 8
+    targetSdkVersion 19
+  }
+}

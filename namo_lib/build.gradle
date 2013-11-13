@@ -1,0 +1,15 @@
+apply plugin: 'android-library'
+
+dependencies {
+  compile files('libs/Namo-1.0.1.jar')
+}
+
+android {
+  compileSdkVersion 19
+  buildToolsVersion "19.0.0"
+
+  defaultConfig {
+    minSdkVersion 8
+    targetSdkVersion 19
+  }
+}
