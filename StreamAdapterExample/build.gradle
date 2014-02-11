@@ -1,9 +1,22 @@
-evaluationDependsOn(':namo_lib')
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:0.8.+'
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
 apply plugin: 'android'
 
 dependencies {
   compile 'com.android.support:appcompat-v7:+'
-  compile project(':namo_lib')
+  compile('com.namomedia.android:namo:2.1.0@aar')
 }
 
 android {

@@ -10,35 +10,19 @@
   android:paddingLeft="12dp">
 
   <include
-    android:id="@+id/pane1"
-    layout="@layout/list_item_card"
+    android:id="@+id/leftAd"
+    layout="@layout/ad_card"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="6dp"
     android:layout_weight="1" />
 
   <include
-    android:id="@+id/pane2"
+    android:id="@+id/rightAd"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_margin="6dp"
     android:layout_weight="1"
-    layout="@layout/list_item_card" />
-
-  <include
-    android:id="@+id/pane3"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_margin="6dp"
-    android:layout_weight="1"
-    layout="@layout/list_item_card" />
-
-  <include
-    android:id="@+id/pane4"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_margin="6dp"
-    android:layout_weight="1"
-    layout="@layout/list_item_card" />
+    layout="@layout/ad_card" />
 </LinearLayout>
 
